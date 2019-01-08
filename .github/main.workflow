@@ -5,4 +5,5 @@ workflow "New workflow" {
 
 action "re-actors/dpl-action@master" {
   uses = "re-actors/dpl-action@master"
+  args = "--provider=pages"
 }
