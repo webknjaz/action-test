@@ -25,7 +25,7 @@ action "hmarr/debug-action" {
 
 action "datreeio/validate-license-action@master" {
   uses = "datreeio/validate-license-action@master"
-  args = "MIT,ISC"
+  args = ["MIT,ISC"]
 }
 
 action "wip/action@master" {
